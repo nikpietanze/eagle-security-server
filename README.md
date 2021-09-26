@@ -36,5 +36,6 @@ $ npm run test:cov
 
 ## TODO
 
+- [ ] QA email logic
 - [ ] Configure security
 - [ ] Remove Items & MongoDB integration
