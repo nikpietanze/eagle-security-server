@@ -117,5 +117,5 @@ export const contactEmail = ({
         </tbody>
       </table>
     </center>
-  </div>`
-}
+  </div>`;
+};

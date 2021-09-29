@@ -1,6 +1,6 @@
-import { Module } from '@nestjs/common'
-import { EmailsController } from './emails.controller'
-import { EmailsService } from './emails.service'
+import { Module } from '@nestjs/common';
+import { EmailsController } from './emails.controller';
+import { EmailsService } from './emails.service';
 
 @Module({
 	controllers: [EmailsController],

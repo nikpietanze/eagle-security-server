@@ -1,7 +1,7 @@
-import { Body, Controller, Post } from '@nestjs/common'
-import { EmailsService } from './emails.service'
-import Email from './interfaces/email.interface'
-import { ClientResponse } from '@sendgrid/client/src/response'
+import { Body, Controller, Post } from '@nestjs/common';
+import { EmailsService } from './emails.service';
+import Email from './interfaces/email.interface';
+import { ClientResponse } from '@sendgrid/client/src/response';
 
 @Controller('emails')
 export class EmailsController {
@@ -9,6 +9,6 @@ export class EmailsController {
 
 	@Post()
 	async create(@Body() email: Email): Promise<ClientResponse> {
-		return this.emailsService.send(email)
+		return this.emailsService.send(email);
 	}
 }

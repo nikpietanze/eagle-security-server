@@ -130,5 +130,5 @@ export const quoteEmail = ({
         </tbody>
       </table>
     </center>
-  </div>`
-}
+  </div>`;
+};

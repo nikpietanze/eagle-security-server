@@ -117,5 +117,5 @@ export const codeUpdatesEmail = ({
         </tbody>
       </table>
     </center>
-  </div>`
-}
+  </div>`;
+};

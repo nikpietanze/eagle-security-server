@@ -139,5 +139,5 @@ export const serviceRequestEmail = ({
         </tbody>
       </table>
     </center>
-  </div>`
-}
+  </div>`;
+};
